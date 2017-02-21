@@ -1,0 +1,44 @@
+/*================================================
+Footer
+=================================================*/
+#footer {
+	background-color:grey;
+	padding: 20px 0px 40px 0px;
+}
+
+#copyRight {
+width:70%;
+height:100%; 
+float:left; 
+display: block;
+padding-left:10px;
+}
+
+#navBarBottom  {
+	position: relative;
+	font-size:10;
+	display: inline-block;
+	width: 25%;
+
+	
+}
+
+#navBarBottom  li {
+	font-size:10;
+	display: inline;
+}
+#socailImages {
+	position:relative;
+	float: right;
+	right: 120px;
+	bottom: 20px;
+	clear:both;
+}
+#socailImages li{
+	display: inline;
+	padding: 10px;
+}
+#socailImages img{
+	width:20px;
+}
+
