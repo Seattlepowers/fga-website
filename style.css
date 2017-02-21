@@ -9,11 +9,75 @@ button {
 	color: white;
 }
 
-.iconButton{
-  border:1px;
-  border-color:black;
-  this is some bad code
+/*======================================
+             icon section
+========================================*/
+
+.iconSection{
+  display: inline-block;
+  width:100%;
+  /*border-style:solid;
+  border-color:black;*/
 }
+
+
+.iconSection span{
+  display:block;
+  margin-bottom: 40px;
+  /*border-style:solid;
+  border-color:black;*/
+}
+
+
+/*.iconSections2{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}*/
+
+
+.iconButtons{
+  display: inline-block;
+ /* border-style:solid;
+  border-color:black;*/
+  border-radius: 50px;
+  width:  100px;
+  height: 100px;
+  background-color: rgb(160,160,160);
+  margin-right:5%;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.imgIcon {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+}
+
+.fullName {
+  position: relative;
+  top: 75%;
+  text-align: center;
+  font-size: 15px;
+  color: green;
+}
+
+
+.resume {
+  color: blue;
+  position: relative;
+  top: 60%;
+  text-align: center;
+  font-size: 11px;
+}
+
+
 
 /*================================================
 Footer
