@@ -9,6 +9,11 @@ button {
 	color: white;
 }
 
+.iconButton{
+  border:1px;
+  border-color:black;
+}
+
 /*================================================
 Footer
 =================================================*/
@@ -20,8 +25,8 @@ Footer
 
 #copyRight {
 width:70%;
-height:100%; 
-float:left; 
+height:100%;
+float:left;
 display: block;
 padding-left:10px;
 }
