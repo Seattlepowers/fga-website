@@ -1,12 +1,30 @@
+/*======================================================
+Topbar
+=======================================================*/
+
 #topBar {
 	background-color: #D3D3D3;
+	width:100%;
+	height:100%;
+	padding:20px;
 }
-button {
-	margin: 20px;
-	width: 150px;
-	height:50px;
+#logo {
+	padding: 0px 10px 20px 10px;
+	width: 125px;
+	height:30px;
 	background-color: #696969;
-	color: white;
+	position: relative;
+	left:20px;
+	border: 1px grey solid;
+}
+
+#logo p:nth-child(n) {
+	width:100%;
+	height:100%;
+	position: relative;
+	left: 45px;
+	font-size:16px;
+	color:white;
 }
 
 /*======================================
@@ -138,7 +156,7 @@ padding-left:10px;
 	position:relative;
 	float: right;
 	right: 200px;
-	bottom: 20px;
+	bottom: 30px;
 	clear:both;
 }
 #socailImages li{
