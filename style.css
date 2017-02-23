@@ -80,6 +80,7 @@ Topbar
   margin-left: 10%;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 
@@ -95,16 +96,37 @@ Topbar
   margin-left: 10%;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 
 .imgIcon {
   position: relative;
-  top: 40px;
-  left: 40px;
-  width: 20px;
-  height: 20px;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 70px;
+  z-index: 2;
 }
+
+.imgIcon2 {
+  top: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  visibility:;
+  z-index:0;
+  border: 2px dashed black;
+  position: absolute;
+}
+
+.imgIcon:hover {
+  visibility: hidden;
+  background-color: red;
+  z-index:;
+}
+
+
 
 .fullName {
   position: relative;
