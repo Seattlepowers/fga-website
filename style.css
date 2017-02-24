@@ -105,6 +105,7 @@ Topbar
   margin-left: 10%;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 
@@ -120,6 +121,7 @@ Topbar
   margin-left: 10%;
   margin-top: 20px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 
@@ -130,7 +132,33 @@ Topbar
   width: 92%;
   height: 92%;
   border-radius: 50px;
+  z-index:0;
+  visibility:visible;
+
 }
+
+.imgIcon2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 92%;
+  height: 92%;
+  border-radius: 50px;
+  visibility:visible;
+  z-index:0;
+}
+
+.imgIcon2:hover {
+	visibility: hidden;
+	
+}
+
+.imgIcon:hover {
+	visibility: visible;
+	
+}
+
+
 
 .fullName {
   position: relative;
