@@ -1,3 +1,28 @@
+
+.studentDirectory {
+   background: snow;
+    width: 100%;
+    height: 1000px;
+}
+
+.container {
+    background:lightgrey;
+}
+
+
+
+#header {
+   height: 100px;
+   width: 100%;
+   background-color: lightgrey;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: lightgrey;
+}
+
 /*======================================================
 Topbar
 =======================================================*/
@@ -79,13 +104,13 @@ Topbar
   margin-left: 10%;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
-
-
-.iconButtonsGrey {
+ 
+/*.iconButtonsGrey {
   display: inline-block;
- /* border-style:solid;
-  border-color:black;*/
+  border-style:solid;
+  border-color:black;
   border-radius: 50px;
   width:  100px;
   height: 100px;
@@ -94,6 +119,18 @@ Topbar
   margin-left: 10%;
   margin-top: 20px;
   margin-bottom: 50px;
+  position: relative;
+}*/
+
+.imgIcon2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 92%;
+  height: 92%;
+  border-radius: 50px;
+  visibility: visible;
+  z-index:1;
 }
 
 
@@ -104,14 +141,36 @@ Topbar
   width: 92%;
   height: 92%;
   border-radius: 50px;
+  z-index:1;
+  visibility: visible;
+
 }
+
+
+
+.imgIcon2:hover {
+	visibility: hidden;
+   z-index:-1;
+	
+}
+
+.imgIcon:hover {
+	visibility: visible;
+   z-index:2;
+	
+}
+
+
 
 .fullName {
   position: relative;
   top: 25%;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   color: black;
+  font-style: italic;
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
 }
 
 
@@ -120,7 +179,9 @@ Topbar
   position: relative;
   top: 25%;
   text-align: center;
-  font-size: 11px;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Courgette', cursive;
 }
 
 
@@ -163,6 +224,7 @@ Footer
   background-color: rgb(21,61,96);
 	padding: 20px 0px 40px 0px;
 	color: rgb(247,250,255);
+  font-family: 'Courgette', cursive;
 }
 
 #copyRight {
@@ -198,4 +260,5 @@ padding-left:10px;
 #socailImages img{
 	width:20px;
 }
+
 
